@@ -1,4 +1,4 @@
 amqp-smart-message
 ==================
 
-Messaging process implementaion through Amqplib
+Messaging process implementation through Amqplib
