@@ -1,5 +1,5 @@
 {
-    "name": "Ivan-Golaiko/amqp-smart-message",
+    "name": "legolaiko/amqp-smart-message",
     "version": "0.1",
     "type": "library",
     "description": "Messaging process implementaion through Amqplib",
@@ -8,13 +8,13 @@
     "license" : "BSD",
     "authors" : [
         {
-            "name": "Ivan-Golaiko"
+            "name": "Ivan Golayko"
         }
     ],
     "require": {
         "php": ">=5.4.1",
 		"videlalvaro/php-amqplib" : "dev-master",
-        "symfony/event-dispatcher": ">=2.1",
+        "symfony/event-dispatcher": ">=2.1"
     },
     "autoload": {
         "psr-0": {
