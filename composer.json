@@ -1,0 +1,23 @@
+{
+    "name": "Ivan-Golaiko/amqp-smart-message",
+    "version": "0.1",
+    "type": "library",
+    "description": "Messaging process implementaion through Amqplib",
+    "keywords": ["amqp", "RabbitMQ",
+    "homepage": "https://github.com/Ivan-Golaiko/amqp-smart-message",
+    "license" : "BSD",
+    "authors" : [
+        {
+            "name": "Ivan-Golaiko"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.1",
+		"videlalvaro/php-amqplib" : "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Valitron": "src/"
+        }
+    }
+}
