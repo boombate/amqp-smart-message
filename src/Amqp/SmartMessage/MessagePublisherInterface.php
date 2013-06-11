@@ -1,5 +1,5 @@
 <?php
-namespace Bb8\Amqp\SmartMessage;
+namespace AmqpSmartMessage;
 
 /**
  * Message publisher interface

@@ -3,7 +3,7 @@
     "version": "0.1",
     "type": "library",
     "description": "Messaging process implementaion through Amqplib",
-    "keywords": ["amqp", "RabbitMQ",
+    "keywords": ["amqp", "RabbitMQ"]
     "homepage": "https://github.com/Ivan-Golaiko/amqp-smart-message",
     "license" : "BSD",
     "authors" : [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Valitron": "src/"
+            "Amqp": "src/"
         }
     }
 }

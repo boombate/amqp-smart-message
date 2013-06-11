@@ -1,7 +1,7 @@
 <?php
-namespace Bb8\Amqp\SmartMessage\Serializer;
+namespace AmqpSmartMessage\Serializer;
 
-use Bb8\Amqp\SmartMessage\MessageSerializerInterface;
+use AmqpSmartMessage\MessageSerializerInterface;
 
 class MessageSerializerPhp implements MessageSerializerInterface
 {

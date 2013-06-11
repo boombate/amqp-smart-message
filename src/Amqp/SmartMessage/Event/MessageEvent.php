@@ -1,5 +1,5 @@
 <?php
-namespace Bb8\Amqp\SmartMessage\Event;
+namespace AmqpSmartMessage\Event;
 
 use Symfony\Component\EventDispatcher\Event;
 

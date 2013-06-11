@@ -1,14 +1,14 @@
 <?php
-namespace Bb8\Amqp\SmartMessage\Amqplib;
+namespace AmqpSmartMessage\Amqplib;
 
 use PhpAmqpLib\Connection\AMQPConnection;
 use PhpAmqpLib\Channel\AMQPChannel;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
-use Bb8\Amqp\SmartMessage\Event\ProcessEvent;
-use Bb8\Amqp\SmartMessage\Event\MessageEvent;
-use Bb8\Amqp\SmartMessage\MessageSerializerInterface;
+use AmqpSmartMessage\Event\ProcessEvent;
+use AmqpSmartMessage\Event\MessageEvent;
+use AmqpSmartMessage\MessageSerializerInterface;
 
 /**
  * Message consumer. Consumes messages from RabbitMQ queue

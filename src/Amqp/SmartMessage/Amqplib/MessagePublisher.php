@@ -1,11 +1,11 @@
 <?php
-namespace Bb8\Amqp\SmartMessage\Amqplib;
+namespace AmqpSmartMessage\Amqplib;
 
 use PhpAmqpLib\Connection\AMQPConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 use PhpAmqpLib\Channel\AMQPChannel;
-use Bb8\Amqp\SmartMessage\MessageSerializerInterface;
-use Bb8\Amqp\SmartMessage\MessagePublisherInterface;
+use AmqpSmartMessage\MessageSerializerInterface;
+use AmqpSmartMessage\MessagePublisherInterface;
 
 /**
  * Message publisher. Publishes messages into RabbitMQ queue
