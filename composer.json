@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4.1",
-		"videlalvaro/php-amqplib" : "dev-master",
+        "php-amqplib/php-amqplib": "2.6.*",
         "symfony/event-dispatcher": ">=2.1"
     },
     "autoload": {
